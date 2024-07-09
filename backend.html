@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Morales Lab</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+	<body>
+			<header class="header">
+				<div class="menu container">
+					<a href="#" class="logo">Morales Lab</a>
+					<input type="checkbox" id="menu" />
+					<label for="menu">
+						<img src="img/icono.jpg" class="menu-icono" alt="menu">
+					</label>
+					<nav class="navbar">
+						<ul>
+							<li><a href="#">Inicio</a></li>
+							<li><a href="#nosotros">Nosotros</a></li>
+							<li><a href="#servicios">Servicios</a></li>
+							<li><a href="#formulario">Contacto</a></li>
+							<li><a href="http://127.0.0.1:8000/login">Ingresar</a></li>
+						</ul>
+					</nav>
+					
+								
+			</header>
+
+			
+
+			<footer class="footer">
+				<div class="footer-content container">
+					<div class="link">
+						<a href="#" class="logo">Morales Lab</a>
+					</div>
+					<div class="link">
+						<ul>
+							<li><a href="#">Inicio</a></li>
+							<li><a href="#nosotros">Nosotros</a></li>
+							<li><a href="#servicios">Servicios</a></li>
+							<li><a href="http://127.0.0.1:8000/login">Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+				<br>
+				<center><h5>©Todo los derechos reservados | Av. Perú 190 , Morales, Peru | Cel. 921 948 044 | Email. moraleslabsac@gmail.com</h5></center>
+				
+			</footer>
+
+			<?php
+				include("send.php");
+			?>
+
+			<script>
+				function myFuntion()
+				{
+					window.location.href="http://localhost/pagina"
+				}
+			</script>
+
+	</body>
+</html>
+
